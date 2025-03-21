@@ -15,6 +15,7 @@ import { AdminProfileComponent } from './components/admın/admin-profile/admin-p
 import { StudentsComponent } from './components/admın/students/students.component';
 import { TeachersComponent } from './components/admın/teachers/teachers.component';
 import { AdmdannouncementsComponent } from './components/admın/admdannouncements/admdannouncements.component';
+import { ClassscheduleComponent } from './components/admın/classschedule/classschedule.component';
 
 export const routes: Routes = [
   { path: '', redirectTo: 'login', pathMatch: 'full' },
@@ -44,6 +45,7 @@ export const routes: Routes = [
       { path: 'students', component: StudentsComponent },
       { path: 'teachers', component: TeachersComponent },
       { path: 'admannouncements', component: AdmdannouncementsComponent },
+      { path: 'classschedule', component: ClassscheduleComponent },
     ]
   },
 ];

@@ -112,14 +112,19 @@
           <!-- <a routerLink="/admin">İdareci Paneli</a> -->
           <button (click)="goToadminProfile()">Admin Profile</button>
         </li>
-        <li class="p-2 hover:bg-orange-500  cursor-pointer text-center">
-          <!-- <a routerLink="/admin/students">Öğrenci Yönetimi</a> -->
-          <button (click)=" goToadminstudents()">Student Panel</button>
-        </li>
         <li class="p-2 hover:bg-orange-500  cursor-pointer">
           <!-- <a routerLink="/admin/teachers">Öğretmen Yönetimi</a> -->
           <button (click)=" goToadminteachers()">Teacher Panel</button>
         </li>
+        <li class="p-2 hover:bg-orange-500 cursor-pointer">
+          <!-- <a routerLink="/admin/admannouncements">Duyurular</a> -->
+          <button (click)=" goToadminclassSchedule()">Class Schedule</button>
+        </li>
+        <li class="p-2 hover:bg-orange-500  cursor-pointer text-center">
+          <!-- <a routerLink="/admin/students">Öğrenci Yönetimi</a> -->
+          <button (click)=" goToadminstudents()">Student Panel</button>
+        </li>
+        
         <li class="p-2 hover:bg-orange-500 cursor-pointer">
           <!-- <a routerLink="/admin/admannouncements">Duyurular</a> -->
           <button (click)=" goToadminannouncements()">Announcements</button>

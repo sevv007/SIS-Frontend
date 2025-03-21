@@ -66,4 +66,7 @@ export class DashboardComponent {
   goToadminannouncements() {
     this.router.navigate(['/admin-dashboard/admannouncements']);
   }
+  goToadminclassSchedule() {
+    this.router.navigate(['/admin-dashboard/classschedule']);
+  }
 }
